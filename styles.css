@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F4F5FB;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+}
+
+main {
+  width: 100%;
+  padding: 0 20px;
+}
+
+header{
+    text-align: center;
+    padding: 50px;
+}
+
+section{
+    text-align: center;
+    width: 100%;
+}
+
+#voltar{
+    padding-right: 480px;
+}
+#botao-voltar{
+    color: #CA3884;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: medium;
+}
+
+h1{
+    color: #080B12;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: bold;
+    padding: 5px 305px 35px 0px;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border: none;
+    padding: 5px 50px 25px 0px;
+}
+
+input:focus {
+  outline: none;
+}
+
+input[type="checkbox"] {
+  accent-color: #CA3884; 
+}
+
+#input-item{
+    background-color: #ffffff;
+    text-decoration: none;
+    border: solid 1px #D1D5DB ;
+    border-radius: 8px;
+    height: 35px;
+    width: 350px;
+    padding: 8px;
+}
+
+#button-item{
+    background-color: #CA3884;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    height: 35px;
+    width: 120px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#button-item:hover{
+    background-color: #A52C6B;
+    transform: scale(1.05);
+}
+
+.lista {
+  display: flex;
+  justify-content: center;
+  padding: 5px 45px 10px 0px;
+}
+
+.lista ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lista li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  background-color: #ffffff;
+  width: 480px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+label{
+    font-size: 12px;
+}
+.item-texto {
+  display: flex;
+  align-items: center;
+  gap: 6px; 
+}
+
+.delete-icon {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.mensagem-item {
+    background-color: #C93847;
+    width: 480px;               /* mesma largura que os itens da lista */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 10px;
+    /* alinhar com a lista */
+    margin-left: 487px;             
+    display: none;
+}
+
+.mensagem-item p {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.mensagem-item img{
+    height: 15px;
+    width: 15px;
+}
+
+#tira-mensagem{
+    cursor: pointer;
+}
